@@ -1,0 +1,31 @@
+{
+  "name": "--ip-address-tracker-master",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "ip-address-tracker-master",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Abdallah",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-connect": "^5.7.0",
+    "gulp-livereload": "^4.0.2",
+    "gulp-minify": "^3.1.0",
+    "gulp-notify": "^4.0.0",
+    "gulp-pug": "^5.0.0",
+    "gulp-sass": "^5.1.0",
+    "gulp-sourcemaps": "^3.0.0",
+    "sass": "^1.65.1"
+  },
+  "browserslist": [
+    "last 10 versions"
+  ],
+  "dependencies": {
+    "static-server": "^2.2.1"
+  }
+}

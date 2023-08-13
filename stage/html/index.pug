@@ -1,0 +1,17 @@
+doctype html
+html(lang='en')
+	include pug/layout/head
+	body
+		section.content.text-center
+			.header
+				h2 IP Address Tracker
+				.search
+					input(type='search', name='search', placeholder='Search for any IP address or domain')
+					i.fa.fa-angle-right
+			.info
+				.ip
+				.location
+				.timezone
+				.isp
+		#map
+		include pug/layout/scripts
